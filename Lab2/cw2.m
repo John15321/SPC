@@ -10,3 +10,6 @@ outsim = sim('cw2sim',20);
 
 f1 = figure;
 plot(outsim.simout);
+
+transfer = tf([k],[T 1]);
+nyquist(transfer);
