@@ -13,5 +13,6 @@ plot(outsim.simout);
 
 transfer = tf([k],[T 1]);
 nyquist(transfer);
+bode(transfer);
 hold on;
 plot(0, 2, 'k.')
