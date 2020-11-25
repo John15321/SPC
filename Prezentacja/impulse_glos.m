@@ -42,7 +42,7 @@ audiowrite("borys_po_imp.wav",convoluted,fs);
 %==============================================================
 
 
-[sig,fs]=audioread('medium_dumping_cave.wav');
+[sig,fs]=audioread('strange_box_imp.wav');
 [js,js_fs]=audioread('denis_sample.wav');
 t=0:1/fs:((length(sig)/fs)-(1/fs));
 js_t=0:1/js_fs:((length(js)/js_fs)-(1/js_fs));
