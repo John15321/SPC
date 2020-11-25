@@ -1,6 +1,9 @@
-k_p=2;
-k_i=0;
+k_p = 1;
 
-[y] = sim("modelinium");
-plot(y);
+% [y] = sim("Reg_P");
+% plot(y);
 
+k_i = 0.3;
+
+[z] = sim("Reg_PI");
+%plot(z);
