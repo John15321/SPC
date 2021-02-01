@@ -4,6 +4,20 @@ import numpy as np
 
 
 def kryterium_Q(u1q: float, u2q: float) -> float:
+    """Kryterium_Q $Q(u_{1}, u_{2}) = (y_{1}-1)^{2} + (y_{2}-2)^{2}$
+
+    Parameters
+    ----------
+    u1q : float
+        u1, dla którego liczymy Q
+    u2q : float
+        u2, dla którego liczymy Q
+
+    Returns
+    -------
+    float
+        Zwraca Q, zakładając, że będzie float'em
+    """
     return (u1q - 1) ** 2 + (u2q - 2) ** 2
 
 
